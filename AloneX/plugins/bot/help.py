@@ -109,29 +109,29 @@ async def helper_cb(client, CallbackQuery, _):
         await CallbackQuery.edit_message_text(helpers.HELP_13, reply_markup=keyboard)
     elif cb == "hb14":
         await CallbackQuery.edit_message_text(helpers.HELP_14, reply_markup=keyboard)
-    elif cb == "hb15":
+  #  elif cb == "hb15":
       #  await CallbackQuery.edit_message_text(helpers.HELP_15, reply_markup=keyboard)
    # elif cb == "hb16":
       #  await CallbackQuery.edit_message_text(helpers.HELP_16, reply_markup=keyboard)
 
-Dil_Text = ("ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄᴀᴛᴇɢᴏʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴɴᴀ ɢᴇᴛ ʜᴇʟᴩ.\nᴀsᴋ ʏᴏᴜʀ ᴅᴏᴜʙᴛs ᴀᴛ <a href={0}>sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ</a>\n\nᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: <code>/</code>")
+Alone_Text = ("ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄᴀᴛᴇɢᴏʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴɴᴀ ɢᴇᴛ ʜᴇʟᴩ.\nᴀsᴋ ʏᴏᴜʀ ᴅᴏᴜʙᴛs ᴀᴛ <a href={0}>sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ</a>\n\nᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: <code>/</code>")
 
-@app.on_callback_query(filters.regex("dilXaditi") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("aloneop") & ~BANNED_USERS)
 @languageCB
 async def first_pagexx(client, CallbackQuery, _):
     menu_next = help_pannel(_)
     try:
-        await CallbackQuery.message.edit_text(Dil_Text, reply_markup=menu_next)
+        await CallbackQuery.message.edit_text(Alone_Text, reply_markup=menu_next)
         return
     except:
         return
 
-@app.on_callback_query(filters.regex("Adisa") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("Alone") & ~BANNED_USERS)
 @languageCB
 async def first_pagee(client, CallbackQuery, _):
     menu_next = help_pannel(_)
     try:
-        await CallbackQuery.message.edit_text(Dil_Text, reply_markup=menu_next)
+        await CallbackQuery.message.edit_text(Alone_Text, reply_markup=menu_next)
         return
     except:
         return
