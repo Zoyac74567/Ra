@@ -1,16 +1,1 @@
-# Netscape HTTP Cookie File
-# This is a generated file! Do not edit.
-
-# domain  include_subdomains  path  secure  expiration_date  name  value
-.youtube.com	TRUE	/	TRUE	1772529362	__Secure-3PSIDCC	AKEyXzUa00l8TygdEK0iGddGPeyGaUALrvJERzqgVaHzWyinQ6VUXxXUir-9r6LuuE6DHaLI
-.youtube.com	TRUE	/	TRUE	0	YSC	xQnDkE-hr0I
-.youtube.com	TRUE	/	TRUE	1775553118	LOGIN_INFO	AFmmF2swRgIhAKafqadn3fUcm_wbRpebl6geR8DJDYoon_JpSaKFPMIpAiEAmxwxPDeQl61FkxqrVUuRjzTFrf4OeMtByjNQ8GNx5K4:QUQ3MjNmeUF1VzQ2VDNZWHh5QTg1WEItZ0QtdjhJMDZzMkpvSkFaMWEzNWpvVXgtelRhdTJ0SVVGRTNWYXFpeVhGQ2lobGNzV0dIOWxBR3VJWHdmRExmUDkySmxzWXdtZ0xpSG83d1I0eF9fa1lpdDVyem4tMllqZzRJNDZJalBWRFAtajdxcW9OQjNGclJ3MXUwNXpxRkJkMnBsbFNZMTJR
-.youtube.com	TRUE	/	TRUE	1775553316	PREF	f6=40000000&tz=Asia.Calcutta&f7=100
-.youtube.com	TRUE	/	TRUE	1756545118	__Secure-ROLLOUT_TOKEN	CJy-i4PJqK7zARDOoqDgyO2LAxje5LLhyO2LAw%3D%3D
-.youtube.com	TRUE	/	TRUE	1775553114	__Secure-3PAPISID	E5xj4qcgkIwvgMuP/AuoJ6gpyPPoC5LgyC
-.youtube.com	TRUE	/	TRUE	1772529114	__Secure-1PSIDTS	sidts-CjIBEJ3XV4d4z2pa5x4TqXC1qQqW9AeKs6d8BgrH2_iHx9CZAzx9jN5vofrxm8dKLhJttxAA
-.youtube.com	TRUE	/	TRUE	1775553114	__Secure-3PSID	g.a000uQhclq91DGG8oJqZqvOPpbwvooYsVqwfBWM_Moa42pP1mdllMjzIvRk5sqtI6IIr0bScxgACgYKAfESARMSFQHGX2MiArDYwC7Gj20nS462H2JfwRoVAUF8yKqetsgF0EpRnK3H548xvR0X0076
-.youtube.com	TRUE	/	TRUE	1756545301	VISITOR_INFO1_LIVE	r1h4tEnbQ-k
-.youtube.com	TRUE	/	TRUE	1772529114	__Secure-3PSIDTS	sidts-CjIBEJ3XV4d4z2pa5x4TqXC1qQqW9AeKs6d8BgrH2_iHx9CZAzx9jN5vofrxm8dKLhJttxAA
-.youtube.com	TRUE	/	TRUE	1756545301	VISITOR_PRIVACY_METADATA	CgJJThIEGgAgSw%3D%3D
-.youtube.com	TRUE	/	TRUE	1740994912	GPS	1
+𝗞𝗛𝗨𝗗 𝗖𝗢𝗢𝗞𝗜𝗘𝗦 𝗡𝗜𝗖𝗔𝗟 𝗞𝗔𝗥 𝗗𝗔𝗟 𝗕𝗦𝗗𝗞
