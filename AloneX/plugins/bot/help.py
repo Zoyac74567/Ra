@@ -116,7 +116,7 @@ async def helper_cb(client, CallbackQuery, _):
 
 Dil_Text = ("ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄᴀᴛᴇɢᴏʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴɴᴀ ɢᴇᴛ ʜᴇʟᴩ.\nᴀsᴋ ʏᴏᴜʀ ᴅᴏᴜʙᴛs ᴀᴛ <a href={0}>sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ</a>\n\nᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: <code>/</code>")
 
-@app.on_callback_query(filters.regex("aloneop") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("dilXaditi") & ~BANNED_USERS)
 @languageCB
 async def first_pagexx(client, CallbackQuery, _):
     menu_next = help_pannel(_)
@@ -126,7 +126,7 @@ async def first_pagexx(client, CallbackQuery, _):
     except:
         return
 
-@app.on_callback_query(filters.regex("Alone") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("Adisa") & ~BANNED_USERS)
 @languageCB
 async def first_pagee(client, CallbackQuery, _):
     menu_next = help_pannel(_)
