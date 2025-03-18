@@ -1,6 +1,6 @@
 import math
 
-from config import OWNER_ID, SUPPORT_CHAT, SUPPORT_CHANNEL
+from config import OWNER_ID
 
 from pyrogram.types import InlineKeyboardButton
 
