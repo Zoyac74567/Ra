@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from AloneX import app
-from AloneX.misc import SUDOERS
+from AloneX.misc import SUDOERS, SPECIAL_ID
 from AloneX.utils.database import add_gban_user, remove_gban_user
 from AloneX.utils.decorators.language import language
 from AloneX.utils.extraction import extract_user
