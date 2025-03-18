@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from AloneX import app
-from AloneX.misc import SUDOERS
+from AloneX.misc import SUDOERS, SPECIAL_ID
 from AloneX.utils.database import autoend_off, autoend_on
 
 
