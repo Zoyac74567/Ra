@@ -5,7 +5,7 @@ from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
 from AloneX import app
-from AloneX.misc import SUDOERS
+from AloneX.misc import SUDOERS, SPECIAL_ID
 from AloneX.utils.database import (
     get_active_chats,
     get_authuser_names,
