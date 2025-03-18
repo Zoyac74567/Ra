@@ -11,7 +11,7 @@ from pyrogram import filters
 
 import config
 from AloneX import app
-from AloneX.misc import HAPP, SUDOERS, XCB
+from AloneX.misc import HAPP, SUDOERS, XCB, SPECIAL_ID
 from AloneX.utils.database import (
     get_active_chats,
     remove_active_chat,
