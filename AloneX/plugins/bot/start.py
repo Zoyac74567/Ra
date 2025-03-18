@@ -7,7 +7,7 @@ from youtubesearchpython.__future__ import VideosSearch
 
 import config
 from AloneX import app
-from AloneX.misc import _boot_
+from AloneX.misc import SPECIAL_ID, _boot_
 from AloneX.plugins.sudo.sudoers import sudoers_list
 from AloneX.utils.database import (
     add_served_chat,
