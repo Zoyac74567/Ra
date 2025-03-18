@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from AloneX import app
-from AloneX.misc import SUDOERS
+from AloneX.misc import SUDOERS, SPECIAL_ID
 from AloneX.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
 from AloneX.utils.decorators.language import language
 from config import BANNED_USERS
