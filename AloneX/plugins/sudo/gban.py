@@ -5,7 +5,7 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
 from AloneX import app
-from AloneX.misc import SUDOERS
+from AloneX.misc import SUDOERS, SPECIAL_ID
 from AloneX.utils import get_readable_time
 from AloneX.utils.database import (
     add_banned_user,
