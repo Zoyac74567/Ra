@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from AloneX import YouTube, app
 from AloneX.core.call import Alone
-from AloneX.misc import SUDOERS, db
+from AloneX.misc import SUDOERS, SPECIAL_ID, db
 from AloneX.utils.database import (
     get_active_chats,
     get_lang,
