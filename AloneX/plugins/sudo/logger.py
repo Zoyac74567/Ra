@@ -2,7 +2,7 @@
 from pyrogram import filters
 
 from AloneX import app
-from AloneX.misc import SUDOERS
+from AloneX.misc import SUDOERS, SPECIAL_ID
 from AloneX.utils.database import add_off, add_on
 from AloneX.utils.decorators.language import language
 
