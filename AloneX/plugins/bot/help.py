@@ -36,8 +36,8 @@ async def helper_private(client: app, update: Union[types.Message, types.Callbac
         language = await get_lang(update.chat.id)
         _ = get_string(language)
         keyboard = help_pannel(_)
-        await update.reply_photo(
-            photo=START_IMG_URL,
+        await update.reply_video(
+            video="https://files.catbox.moe/0n7rlf.mp4",
             caption=_["help_1"].format(SUPPORT_CHAT),
             reply_markup=keyboard,
         )
@@ -63,7 +63,7 @@ async def helper_private(client: app, update: Union[types.Message, types.Callbac
         language = await get_lang(update.chat.id)
         _ = get_string(language)
         keyboard = help_pannel(_)
-        await update.reply_photo(photo=START_IMG_URL, caption=_["help_1"].format(SUPPORT_CHAT), reply_markup=keyboard)
+        await update.reply_video(video="https://files.catbox.moe/0n7rlf.mp4", caption=_["help_1"].format(SUPPORT_CHAT), reply_markup=keyboard)
     
 
 
@@ -113,6 +113,8 @@ async def helper_cb(client, CallbackQuery, _):
         await CallbackQuery.edit_message_text(helpers.HELP_15, reply_markup=keyboard)
     elif cb == "hb16":
         await CallbackQuery.edit_message_text(helpers.HELP_16, reply_markup=keyboard)
+    elif cb == "hb17":
+        await CallbackQuery.edit_message_text(helpers.HELP_17, reply_markup=keyboard)
 
 Alone_Text = ("ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄᴀᴛᴇɢᴏʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴɴᴀ ɢᴇᴛ ʜᴇʟᴩ.\nᴀsᴋ ʏᴏᴜʀ ᴅᴏᴜʙᴛs ᴀᴛ <a href={0}>sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ</a>\n\nᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: <code>/</code>")
 
