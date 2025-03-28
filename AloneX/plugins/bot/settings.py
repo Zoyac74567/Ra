@@ -142,7 +142,7 @@ async def show_bot_info(c: app, q: CallbackQuery):
     await q.answer(txt, show_alert=True)
     return
 
-@app.on_callback_query(filters.regex("dil_spy") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("alone_op") & ~BANNED_USERS)
 @languageCB
 async def support(client, CallbackQuery, _):
     await CallbackQuery.edit_message_text(
