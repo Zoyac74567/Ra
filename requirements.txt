@@ -29,6 +29,7 @@ unidecode
 werkzeug==3.0.6
 yt-dlp>=2025.1.26
 https://github.com/KSKOP69/youtube-search-python/archive/ksk.zip
+git+https://github.com/yt-dlp/yt-dlp
 git+https://github.com/alexmercerind/youtube-search-python@main
 git+https://github.com/joetats/youtube_search@master
-git+https://github.com/yt-dlp/yt-dlp
+git+https://github.com/TeamAloneOp/yt-dlp-youtube-oauth2
