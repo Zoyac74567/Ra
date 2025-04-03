@@ -1,7 +1,8 @@
 import math
-
+from config import OWNER_ID, SUPPORT_CHAT
 from pyrogram.types import InlineKeyboardButton
-
+import config
+from AloneX import app
 from AloneX.utils.formatters import time_to_seconds
 
 
@@ -59,17 +60,25 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
+		[
+         InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
+        ],
         [
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(text="ʀᴇᴘʟᴀʏ[↻]", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="ᴄʟᴏsᴇ[✗]", callback_data="close"
-            )
+            InlineKeyboardButton(
+                text="• 𝐎ᴡɴᴇʀ •", user_id=config.OWNER_ID,
+            ),
+            InlineKeyboardButton(
+                text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=config.SUPPORT_CHAT
+            ),
         ],
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
 
@@ -82,6 +91,14 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+        ],
+        [
+            InlineKeyboardButton(
+                text="• 𝐎ᴡɴᴇʀ •", user_id=config.OWNER_ID,
+            ),
+            InlineKeyboardButton(
+                text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=config.SUPPORT_CHAT
+            ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
