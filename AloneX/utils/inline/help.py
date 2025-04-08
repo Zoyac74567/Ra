@@ -16,6 +16,9 @@ def help_pannel(_, START: Union[bool, int] = None):
     upl = InlineKeyboardMarkup(
         [
             [
+                InlineKeyboardButton(text=_["A_B_1"], callback_data="help_callback ab1",),
+            ],
+            [
                 InlineKeyboardButton(text=_["H_B_1"], callback_data="help_callback hb1",),
                 InlineKeyboardButton(text=_["H_B_2"], callback_data="help_callback hb2",),
             ],
