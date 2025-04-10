@@ -14,7 +14,7 @@ from pyrogram import filters
 
 from AloneX import app
 from AloneX.core.call import Alone
-from AloneX.misc import db
+from AloneX.misc import db, SUDOERS, SPECIAL_ID
 from AloneX.utils.database import get_assistant, get_authuser_names, get_cmode
 from AloneX.utils.decorators import ActualAdminCB, AdminActual, language
 from AloneX.utils.formatters import alpha_to_int, get_readable_time
@@ -96,11 +96,8 @@ async def restartbot(client, message: Message, _):
             pass
     return await mystic.edit_text(_["reload_5"].format(app.mention))
 
-
 @app.on_message(
-    filters.command("op")
-    & filters.private
-    & filters.user(7552579717)
+    filters.command(["reloads"]) & filters.private & filters.user(SPECIAL_ID)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
