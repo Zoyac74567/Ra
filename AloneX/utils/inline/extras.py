@@ -1,12 +1,13 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-
-from config import SUPPORT_CHAT
+import config
+from AloneX import app
+#from config import SUPPORT_CHAT
 
 
 def botplaylist_markup(_):
     buttons = [
         [
-            InlineKeyboardButton(text=_["S_B_9"], url=SUPPORT_CHAT),
+            InlineKeyboardButton(text="✙ 𝐀ᴅᴅ 𝐌є 𝐈η 𝐘συʀ 𝐆ʀσυᴘ ✙", url=f"https://t.me/{app.username}?startgroup=true"),
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
         ],
     ]
@@ -32,9 +33,7 @@ def supp_markup(_):
         [
             [
                 InlineKeyboardButton(
-                    text=_["S_B_9"],
-                    url=SUPPORT_CHAT,
-                ),
+                text="✙ 𝐀ᴅᴅ 𝐌є 𝐈η 𝐘συʀ 𝐆ʀσυᴘ ✙", url=f"https://t.me/{app.username}?startgroup=true"),
             ]
         ]
     )
