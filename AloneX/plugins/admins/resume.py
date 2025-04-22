@@ -1,5 +1,5 @@
 from pyrogram import filters
-from pyrogram.types import Message
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from AloneX import app
 from AloneX.core.call import Alone
@@ -16,6 +16,19 @@ async def resume_com(cli, message: Message, _, chat_id):
         return await message.reply_text(_["admin_3"])
     await music_on(chat_id)
     await Alone.resume_stream(chat_id)
+    buttons_resume = [
+        [
+            InlineKeyboardButton(text="𝐒ᴋɪᴘ", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="𝐒ᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"),
+        ],
+        [
+            InlineKeyboardButton(
+                text="𝐏ᴀᴜsᴇ",
+                callback_data=f"ADMIN Pause|{chat_id}",
+            ),
+        ],
+    ]
     await message.reply_text(
-        _["admin_4"].format(message.from_user.mention), reply_markup=close_markup(_)
+        _["admin_4"].format(message.from_user.mention),
+        reply_markup=InlineKeyboardMarkup(buttons_resume),
     )
