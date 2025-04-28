@@ -15,6 +15,9 @@ BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+API_KEY = getenv("API_KEY", "") # youtube song api key, get it from https://t.me/AloneHuVai
+
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
 SONG_DOWNLOAD_DURATION = int(
