@@ -27,7 +27,7 @@ spotipy
 TgCrypto
 unidecode
 werkzeug==3.0.6
-yt-dlp>=2025.1.26
+yt-dlp>=2025.4.30
 https://github.com/KSKOP69/youtube-search-python/archive/ksk.zip
 git+https://github.com/yt-dlp/yt-dlp
 git+https://github.com/joetats/youtube_search@master
