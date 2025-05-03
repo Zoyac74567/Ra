@@ -100,6 +100,6 @@ async def download_song(_, message: Message):
         await m.delete()
 
     except Exception as e:
-        await m.edit("🙂 ᴀɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ! @itsMeShivanshu & @ShivanshuXD ᴘᴍ ")
+        await m.edit("🙂 ᴀɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ! @AloneHuVai & @AloneXCoder ᴘᴍ ")
         print(f"Error: {str(e)}")
 
