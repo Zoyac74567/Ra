@@ -13,7 +13,7 @@ httpx[http2]
 lyricsgenius
 motor
 ntgcalls
-pillow
+pillow==11.2.1
 psutil
 py-tgcalls==0.9.7
 pykeyboard
