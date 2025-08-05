@@ -37,7 +37,7 @@ async def helper_private(client: app, update: Union[types.Message, types.Callbac
         _ = get_string(language)
         keyboard = help_pannel(_)
         await update.reply_video(
-            video="https://files.catbox.moe/0n7rlf.mp4",
+            video="https://files.catbox.moe/y9d9k9.jpg",
             caption=_["help_1"].format(SUPPORT_CHAT),
             reply_markup=keyboard,
         )
@@ -63,7 +63,7 @@ async def helper_private(client: app, update: Union[types.Message, types.Callbac
         language = await get_lang(update.chat.id)
         _ = get_string(language)
         keyboard = help_pannel(_)
-        await update.reply_video(video="https://files.catbox.moe/0n7rlf.mp4", caption=_["help_1"].format(SUPPORT_CHAT), reply_markup=keyboard)
+        await update.reply_video(video="https://files.catbox.moe/y9d9k9.jpg", caption=_["help_1"].format(SUPPORT_CHAT), reply_markup=keyboard)
     
 
 
