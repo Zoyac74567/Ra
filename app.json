@@ -1,5 +1,5 @@
 {
-  "name": "˹ᴀʟᴏɴᴇ˼ [V3]",
+  "name": "˹𝞚𝙡𝞸𝞰𝞮 ✗ 𝙈𝙪𝙨𝙞𝙘 ♪˼",
   "description": "A Alone Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
   "logo": "https://files.catbox.moe/n2f6fh.jpg",
   "keywords": [
@@ -34,7 +34,7 @@
     },
     "OWNER_ID": {
       "description": "The user id of user whom you would like to add as OWNER.",
-      "value": "7552579717",
+      "value": "6079943111",
       "required": true
     },
     "STRING_SESSION": {

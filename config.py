@@ -15,9 +15,6 @@ BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", "") # youtube song api key, get it from https://t.me/AloneHuVai
-
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
 SONG_DOWNLOAD_DURATION = int(
@@ -26,11 +23,11 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-OWNER_ID = int(getenv("OWNER_ID", "7552579717"))
+OWNER_ID = int(getenv("OWNER_ID", "8185684222"))
 
-OWNER_USERNAME = getenv("OWNER_USERNAME","AloneHuVai")
+OWNER_USERNAME = getenv("OWNER_USERNAME","D_I_Y_O_R_r_N_e_x_t_y")
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "AloneXMusicBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "bebiejaann_bot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -40,15 +37,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TeamAloneOp/AloneApiMusicBot",
+    "https://github.com/Zoyac74567/Ra",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "ALONE")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AloneUpdates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AloneXSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+fFiRhsZfkbU4NTY1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+fFiRhsZfkbU4NTY1")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
@@ -91,10 +88,10 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/7o7i4j.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/y9d9k9.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/vxp6t1.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/y9d9k9.jpg"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/gkkinp.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/mvaaba.jpg"
