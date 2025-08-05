@@ -17,7 +17,7 @@ SPAM_THRESHOLD = 2
 SPAM_WINDOW_SECONDS = 5
 
 # Path to the cookies file (make sure you have the cookies.txt file in the same directory or provide the full path)
-COOKIES_FILE = 'cookies/cookies.txt'
+COOKIES_FILE = 'AloneX/cookies.txt'
 
 # Command to search and download song
 @app.on_message(filters.command("song"))
@@ -100,6 +100,6 @@ async def download_song(_, message: Message):
         await m.delete()
 
     except Exception as e:
-        await m.edit("🙂 ᴀɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ! @AloneHuVai & @AloneXCoder ᴘᴍ ")
+        await m.edit("🙂 ᴀɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ! @D_I_Y_O_R_r_N_e_x_t_y & @RAJARAJ909 dm")
         print(f"Error: {str(e)}")
 

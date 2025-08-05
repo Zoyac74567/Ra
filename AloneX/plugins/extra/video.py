@@ -17,7 +17,7 @@ SPAM_THRESHOLD = 2
 SPAM_WINDOW_SECONDS = 5
 
 # Path to the cookies file (make sure you have the cookies.txt file in the same directory or provide the full path)
-COOKIES_FILE = 'cookies/cookies.txt'
+COOKIES_FILE = 'AloneX/cookies.txt'
 # Command to search and download video
 @app.on_message(filters.command("video"))
 async def download_video(_, message: Message):
@@ -98,5 +98,5 @@ async def download_video(_, message: Message):
         await m.delete()
 
     except Exception as e:
-        await m.edit("🙂 ᴀɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ! @AloneHuVai & @AloneXCoder ᴘᴍ ")
+        await m.edit("🙂 ᴀɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ! @D_I_Y_O_R_r_N_e_x_t_y & @RAJARAJ909 ᴘᴍ ")
         print(f"Error: {str(e)}")
